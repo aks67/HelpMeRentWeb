@@ -112,8 +112,8 @@ def get_city_overview_by_br(df, br, aff_lim=0, aff_on=False):
         result_df = median_rent_data
 
     final_data_with_local = add_locality(result_df, pc_df)
-    # TODO: remove the following line for long result
-    final_data_with_local = final_data_with_local.head(20)
+    # # TODO: remove the following line for long result
+    # final_data_with_local = final_data_with_local.head(20)
     final_data_with_local = final_data_with_local.sort_values(by='MedianRent')
     return final_data_with_local
 

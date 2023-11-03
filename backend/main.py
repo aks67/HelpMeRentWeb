@@ -46,8 +46,8 @@ def score_view(df):
 
 
 if __name__ == '__main__':
-    locations_list = [2000]
-    result = consider_locations(locations_list=locations_list, br=3, aff_lim=900, aff_on=True)
+    locations_list = [2000, 2055, 2033]
+    result = consider_locations(locations_list=locations_list, br=3, aff_lim=1000, aff_on=True)
     resultant = score_view(result)
     best_loc = resultant.iloc[0]
     print(best_loc)
