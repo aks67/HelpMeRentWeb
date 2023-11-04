@@ -1,0 +1,15 @@
+.animated-title {
+    font-size: 36px;
+    color: #333;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 1s ease;
+    margin: 50px;
+    padding: 30px;
+    letter-spacing: 0.3cm;
+  }
+  
+  .animated-title.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }

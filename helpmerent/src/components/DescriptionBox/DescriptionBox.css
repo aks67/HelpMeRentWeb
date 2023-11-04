@@ -1,0 +1,23 @@
+.description-box {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 0px;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px auto;
+    text-align: center;
+  }
+  
+  .description-box.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .description-text {
+    white-space: pre-line;
+  }
