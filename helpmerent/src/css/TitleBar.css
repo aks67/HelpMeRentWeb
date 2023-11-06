@@ -1,0 +1,15 @@
+/* TitleBar.css */
+.title-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+    background-color: white;
+  }
+  
+  .title {
+    font-size: 6rem; 
+    color: black; 
+    font-family: 'Edu TAS Beginner', sans-serif;
+  }
+  
