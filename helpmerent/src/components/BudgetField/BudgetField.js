@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
+import Axios from 'axios';
 
 function BudgetField() {
     
     const [budget, setBudget] = useState('');
 
     const handleBudgetChange = (event) => {
-        const newBudgetValue = event.target.value;
-        setBudget(newBudgetValue);
-        console.log(newBudgetValue)
-      };
+      const newBudgetValue = event.target.value;
+      setBudget(newBudgetValue);
+      console.log(newBudgetValue)
+    }
+
 
     return (
         <div>
